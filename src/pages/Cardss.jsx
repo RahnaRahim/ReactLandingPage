@@ -6,7 +6,7 @@ function Cardss() {
   return (
     
    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', padding: '20px',marginTop:'20px' }}>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -19,7 +19,7 @@ function Cardss() {
           </Card.Body>
         </Card>
       </div>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -32,7 +32,7 @@ function Cardss() {
           </Card.Body>
         </Card>
       </div>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -45,7 +45,7 @@ function Cardss() {
           </Card.Body>
         </Card>
       </div>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -58,7 +58,7 @@ function Cardss() {
           </Card.Body>
         </Card>
       </div>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -71,7 +71,7 @@ function Cardss() {
           </Card.Body>
         </Card>
       </div>
-      <div style={{ flex: '1 1 300px', maxWidth: '300px', marginBottom: '20px' }}>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
         <Card style={{ width: '100%' }}>
           <Card.Img
             variant="top"
@@ -81,6 +81,34 @@ function Cardss() {
           <Card.Body>
             <Card.Title>Cloudy Vibes</Card.Title>
             <Card.Text>Sunsets are proof that endings are beautiful..</Card.Text>
+            <Button variant="primary">Book Now</Button>
+          </Card.Body>
+        </Card>
+      </div>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
+        <Card style={{ width: '100%' }}>
+          <Card.Img
+            variant="top"
+            src="https://images.pexels.com/photos/678725/pexels-photo-678725.jpeg?auto=compress&cs=tinysrgb&w=600"
+            style={{height:'180px'}}
+          />
+          <Card.Body>
+            <Card.Title>Beach Vibes</Card.Title>
+            <Card.Text>Beaches are proof that starting are beautiful..</Card.Text>
+            <Button variant="primary">Book Now</Button>
+          </Card.Body>
+        </Card>
+      </div>
+      <div style={{ flex: '1 1 300px', maxWidth: '250px', marginBottom: '20px' }}>
+        <Card style={{ width: '100%' }}>
+          <Card.Img
+            variant="top"
+            src="https://images.pexels.com/photos/416726/pexels-photo-416726.jpeg?auto=compress&cs=tinysrgb&w=600"
+            style={{height:'180px'}}
+          />
+          <Card.Body>
+            <Card.Title>Sea Dives</Card.Title>
+            <Card.Text>Good vibes happen on the tides.</Card.Text> <br />
             <Button variant="primary">Book Now</Button>
           </Card.Body>
         </Card>
